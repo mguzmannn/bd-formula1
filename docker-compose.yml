@@ -1,0 +1,19 @@
+# Levanta PostgreSQL y ejecuta automáticamente los scripts de ./sql
+# (esquema + datos de ejemplo) la primera vez que se crea el contenedor.
+# Credenciales solo para uso local de desarrollo.
+services:
+  db:
+    image: postgres:16
+    container_name: formula1_db
+    environment:
+      POSTGRES_DB: formula1
+      POSTGRES_USER: formula1
+      POSTGRES_PASSWORD: formula1_dev
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d:ro
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
