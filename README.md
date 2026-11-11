@@ -2,8 +2,8 @@
 
 Diseño e implementación de una base de datos relacional (PostgreSQL) para administrar circuitos, escuderías, pilotos, Grandes Premios, sesiones y resultados de un campeonato de Fórmula 1, incluyendo las clasificaciones de pilotos y constructores.
 
-> **Trabajo práctico grupal** de la materia *Bases de Datos* (Ingeniería en Sistemas de Información, UTN FRSF, 2026).
-> **Integrantes:** Martin Guzmán, Bruno Tregnaghi y Brian Vargas.
+> **Trabajo práctico** de la materia *Bases de Datos* (Ingeniería en Sistemas de Información, UTN FRSF, 2026).
+> 
 
 ## Qué problema resuelve
 
